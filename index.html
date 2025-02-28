@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h1>Musollah Data Entry</h1>
+        <form class="mb-3">
+            <div class="mb-3">
+                <label for="musollahNameInput" class="form-label">Musollah Name</label>
+                <input type="text" class="form-control" id="mosqueNameInput">
+            </div>
+            <div class="mb-3">
+                <label for="musollahAddressInput" class="form-label">Musollah Address</label>
+                <input type="text" class="form-control" id="musollahAddressInput">
+            </div>
+            <div class="mb-3">
+                <label for="coordinatesInput" class="form-label">Musollah Coordinates</label>
+                <input type="text" class="form-control" id="coordinatesInput">
+            </div>
+            <div class="mb-3">
+                <label for="layoutTypeInput" class="form-label">Layout Type</label>
+                <input type="text" class="form-control" id="layoutTypeInput">
+            </div>
+            <div class="mb-3">
+                <label for="layoutDescriptionInput" class="form-label">Layout Description</label>
+                <input type="text" class="form-control" id="layoutDescriptionInput">
+            </div>
+            <div class="mb-3">
+                <label for="wudhuAreaInput" class="form-label">Wudhu Area</label>
+                <input type="text" class="form-control" id="wudhuAreaInput">
+            </div>
+            <div class="mb-3">
+                <label for="directionsInput" class="form-label">Directions</label>
+                <input type="text" class="form-control" id="directionsInput">
+            </div>
+            <div class="mb-3">
+                <label for="prayerItemsInput" class="form-label">Prayer Items</label>
+                <input type="text" class="form-control" id="prayerItemsInput">
+            </div>
+            <div class="mb-3">
+                <label for="imagesInput" class="form-label">Images</label>
+                <input type="text" class="form-control" id="imagesInput">
+            </div>
+            <div class="mb-3">
+                <label for="importantNotesInput" class="form-label">Important Notes</label>
+                <input type="text" class="form-control" id="importantNotesInput">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js" crossorigin="anonymous"></script>
+    <script src="renderer.js"></script>
+</body>
+
+</html>
